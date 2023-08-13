@@ -1,0 +1,15 @@
+@media(min-width: 601px) and (max-width: 1000px) {
+    .comments-container {
+        width: 375px;
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .image-container {
+        height: 270px;
+    }
+
+    .input-fild {
+        width: 90%;
+    }
+}

@@ -1,0 +1,81 @@
+.header {
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline {
+    width: 425px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.headlogo {
+    height: 64px;
+}
+
+.headtitle {
+    color: #b61010;
+    font-size: 40px;
+}
+
+.search-fild {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    right: 400px;
+    top: 35px;
+    outline: none;
+    background-color: #303030;
+    border: 1px solid #505050;
+    border-radius: 7px;
+    transform: translateY(-250%);
+    transition: transform 225ms ease-in-out;
+    text-align: center;
+}
+
+.navbar {
+    width: 425px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-icons {
+    height: 30px;
+    cursor: url(../img/icons/cobwebs/cursor-icons.png), auto;
+}
+
+.navbar-profil {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50% 50% 50% 50%;
+    cursor: url(../img/icons/cobwebs/cursor-icons.png), auto;
+}
+
+.border-bottom-line {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #42248a, #880661, #a9164a, #b93c31, #b96115, #ac8500, #92a621, #b48500, #cf5800, #dd002f, #d5005f, #a90096, #2418c7);
+}
+
+.menu-button {
+    height: 35px;
+    display: none;
+    cursor: url(../img/icons/cobwebs/cursor-icons.png), auto;
+}

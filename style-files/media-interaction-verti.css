@@ -1,0 +1,35 @@
+@media(max-width: 600px) {
+    .interaction-center {
+        height: calc(99.5vh - 62px);
+    }
+
+    .open-profil {
+        top: 63px; height: calc(99.5vh - 63px);
+        overflow-y: scroll;
+        -ms-overflowstyle: none;
+        scrollbar-width: none;
+    }
+
+    .open-profil::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .open-comments {
+        top: 63px; height: calc(99.5vh - 63px);
+        overflow-y: scroll;
+        -ms-overflowstyle: none;
+        scrollbar-width: none;
+    }
+
+    .open-comments::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .post-menu {
+        top: 63px; height: calc(99.5vh - 63px);
+    }
+
+    .post-image-container {
+        top: 63px; height: calc(99.5vh - 63px);
+    }
+}

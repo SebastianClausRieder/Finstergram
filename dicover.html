@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Used Fonts -->
+    <!-- Rubik Burned -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+    <!-- Slobo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <!-- Style und Java Script Files -->
+    <link rel="stylesheet" href="style-files/fonts.css">
+    <link rel="stylesheet" href="style-files/header.css">
+    <link rel="stylesheet" href="style-files/interaction.css">
+    <link rel="stylesheet" href="style-files/your-profil.css">
+    <link rel="stylesheet" href="style-files/posts.css">
+    <link rel="stylesheet" href="style-files/comment-post.css">
+    <link rel="stylesheet" href="style-files/user-profil.css">
+    <link rel="stylesheet" href="style-files/discover.css">
+    <link rel="stylesheet" href="style-files/reels.css">
+    <link rel="stylesheet" href="style-files/message.css">
+    <link rel="stylesheet" href="style-files/keyframes.css">
+    <link rel="stylesheet" href="style-files/media-comment-post-horiz.css">
+    <link rel="stylesheet" href="style-files/media-comment-post-verti.css">
+    <link rel="stylesheet" href="style-files/media-header-horiz.css">
+    <link rel="stylesheet" href="style-files/media-header-verti.css">
+    <link rel="stylesheet" href="style-files/media-interaction-horiz.css">
+    <link rel="stylesheet" href="style-files/media-interaction-verti.css">
+    <link rel="stylesheet" href="style-files/media-posts-horiz.css">
+    <link rel="stylesheet" href="style-files/media-posts-verti.css">
+    <link rel="stylesheet" href="style-files/media-reels-horiz.css">
+    <link rel="stylesheet" href="style-files/media-reels-verti.css">    
+    <link rel="stylesheet" href="style-files/media-user-profil-horiz.css">
+    <link rel="stylesheet" href="style-files/media-user-profil-verti.css">
+    <link rel="stylesheet" href="style-files/media-your-profil-horiz.css">
+    <link rel="stylesheet" href="style-files/media-your-profil-verti.css">
+    <script src="javascript-files/header.js"></script>
+    <script src="javascript-files/posts.js"></script>
+    <script src="javascript-files/comment-post.js"></script>
+    <script src="javascript-files/user-profil.js"></script>
+    <script src="javascript-files/discover.js"></script>
+    <script src="javascript-files/reels.js"></script>
+    <script src="javascript-files/message.js"></script>
+    <script src="javascript-files/global-variabls.js"></script>
+    <script src="javascript-files/w3-include-html.js"></script>
+    <!-- Favicon und Titel -->
+    <link rel="shortcut icon" href="img/icons/finstergram-logo.png" type="image/x-icon">
+    <title>Finstergram Entdeckungszone</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #202020;
+            font-family: 'Slobo 27px', serif;
+            color: aliceblue;
+        }
+
+        /* Scrollbalcken */
+        /* width */
+        ::-webkit-scrollbar {
+            background-color: #151515;
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom, #c40000, #c40807, #c40f0e, #c31514, #c31a1a, #c31f1e, #c22323, #b82929, #ae2e2e, #a33332, #983636, #8d3939, #823c3c, #8d3939, #983636, #a33332, #ae2e2e, #b82929, #c22323, #c31f1e, #c31a1a, #c31514, #c40f0e, #c40807, #c40000);
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            box-shadow: 0px 0.2px 5px 2px #C55A11;
+        }
+    </style>
+</head>
+<body onload="includeHTML(), openDiscover(), openPostMenu()">
+    <div w3-include-html="header.html"></div>
+    <div class="interaction-center" id="ia-center">
+        <div class="interaction-bar" id="discover-zone">
+
+        </div>
+        <div w3-include-html="profil.html"></div>
+    </div>
+    <div class="border-bottom-line"></div>
+</body>
+</html>

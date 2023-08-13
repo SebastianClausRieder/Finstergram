@@ -1,0 +1,28 @@
+@media(min-width: 601px) and (max-width: 1000px) {
+    .interaction-center {
+        height: calc(99.5vh - 77px);
+    }
+
+    .open-profil {
+        top: 78px; height: calc(99.5vh - 78px);
+    }
+
+    .open-comments {
+        top: 78px; height: calc(99.5vh - 78px);
+        overflow-y: scroll;
+        -ms-overflowstyle: none;
+        scrollbar-width: none;
+    }
+
+    .open-comments::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .post-menu {
+        top: 78px; height: calc(99.5vh - 78px);
+    }
+
+    .post-image-container {
+        top: 78px; height: calc(99.5vh - 78px);
+    }
+}

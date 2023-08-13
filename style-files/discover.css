@@ -1,0 +1,59 @@
+.discover-bg {
+    width: 100%;
+    height: fit-content;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.discover {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-level1 {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.discover-level2 {
+    width: 30%;
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.discover-level3 {
+    width: 100%;
+    height: 24.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.discover-image-lvl2 {
+    height: 100%;
+}
+
+.discover-image-lvl3 {
+    height: 100%;
+}
+

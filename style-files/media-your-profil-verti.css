@@ -1,0 +1,54 @@
+@media(max-width: 600px) {
+    .profil-container {
+        top: 62px;
+        height: calc(99.5vh - 62px);
+    }
+
+    .back-button {
+        width: 50px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .profil-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .profil-change {
+        display: none;
+    }
+
+    .profil-change-icon {
+        display: flex;
+    }
+
+    .suggestions-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .suggestions-nic {
+        font-size: 14px;
+    }
+
+    .suggestions-name {
+        font-size: 12px;
+    }
+
+    .subscribe-to {
+        display: none;
+    }
+
+    .subscribe-to-icon {
+        display: flex;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .profil-width {
+        width: 350px;
+    }
+}

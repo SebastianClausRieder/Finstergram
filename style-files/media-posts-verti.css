@@ -1,0 +1,10 @@
+@media(max-width: 600px) {
+    .post {
+        width: 325px;
+        height: 500px;
+    }
+
+    .post-image {
+        height: 350px;
+    }
+}

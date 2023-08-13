@@ -1,0 +1,56 @@
+@media(min-width: 601px) and (max-width: 1000px) {
+    .header {
+        height: 75px;
+    }
+
+    .headbar {
+        width: 97%;
+    }
+
+    .headline {
+        width: 375px;
+    }
+
+    .headlogo {
+        height: 50px;
+    }
+
+    .headtitle {
+        font-size: 30px;
+    }
+
+    .search-fild {
+        width: 250px;
+        right: 65px;
+        top: 22px;
+    }
+
+    .navbar {
+        width: 350px;
+        height: 45px;
+        display: none;
+        position: absolute;
+        top: 85px;
+        right: 15px;
+        border-bottom: 2px solid orangered;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .navbar-icons {
+        height: 23px;
+    }
+
+    .navbar-profil {
+        height: 35px;
+        width: 35px;
+    }
+
+    .menu-button {
+        height: 30px;
+        display: flex;
+    }
+
+    .d-show {
+        display: flex;
+    }
+}

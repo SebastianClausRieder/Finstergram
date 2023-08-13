@@ -1,0 +1,21 @@
+
+
+@keyframes fadeOut {
+    from {
+        width: calc(100% - 500px);
+    }
+
+    to {
+        width: 100%;
+    } 
+}
+
+@keyframes fadeIn {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: calc(100% - 500px);
+    } 
+}

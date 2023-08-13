@@ -1,0 +1,41 @@
+<div class="user-suggestions">
+    <div class="your-suggestions" onclick="">
+        <img src="img/profil/lagerfeuer-genüsse.jpg" alt="" class="suggestions-img">
+        <div class="suggestions-id">
+            <span class="suggestions-nic">lagerfeuer_genuesse</span>
+            <span class="suggestions-name">Lagerfeuer Genüsse</span>
+        </div>
+    </div>
+    <a href="#" class="subscribe-to">Abonnieren</a>
+</div>
+
+
+
+
+.profil-animation-open {
+    animation: 225ms fadeOut ease-in-out;
+}
+
+@keyframes fadeOut {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 500px;
+    } 
+}
+
+.profil-animation-close {
+    animation: 225ms fadeIn ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        width: 500px;
+    }
+
+    to {
+        width: 0;
+    } 
+}

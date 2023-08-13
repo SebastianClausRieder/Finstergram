@@ -1,0 +1,62 @@
+@media(max-width: 600px) {
+    .user-profil-container {
+        width: 95%;
+    }
+
+    .user-profil {
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .user-profil-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .user-profil-data {
+        width: 100%;
+    }
+
+    .data-stage1 {
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .user-profil-name {
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .send-message-button {
+        width: 175px;
+    }
+
+    .data-stage2 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .user-info-name {
+        font-size: 20px;
+    }
+    
+    .user-info-motto {
+        font-size: 16px;
+    }
+    
+    .user-info {
+        font-size: 18px;
+    }
+    
+    .user-info-website {
+        font-size: 16px;
+    }
+}

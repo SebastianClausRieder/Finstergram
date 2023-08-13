@@ -1,0 +1,16 @@
+@media(min-width: 601px) and (max-width: 1000px) {
+    .profil-container {
+        top: 77px;
+        height: calc(99.5vh - 77px);
+    }
+
+    .back-button {
+        width: 50px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .d-none {
+        display: none;
+    }
+}
